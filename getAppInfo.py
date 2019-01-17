@@ -209,7 +209,7 @@ while index < totalNumberOfURLs-1:
                                     'Rating_1': title1,
                                     'Content_Rating': Content_Rating,
                                     'Type': Type})
-            test_df.to_csv('appDetailsOutput.csv', header=False, mode = 'a') #run this to append the data into csv
+            test_df.to_csv('Sample_AppDetailsOutput.csv', header=False, mode = 'a') #run this to append the data into csv
         print (test_df)
     timeTaken = time.time() - startTime
     remainingTime = (timeTaken * (totalNumberOfURLs - index))/60
