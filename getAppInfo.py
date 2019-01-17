@@ -13,7 +13,7 @@ categorySpanClassName = "T32cc UAO9ie"
 
 import pandas as pd
 
-df = pd.read_csv("Sample_AppNameURL.csv") #reading the csv file
+df = pd.read_csv("SampleAppNameURL.csv") #reading the csv file
 url = df['URL'].tolist()
 appNameList = df['App'].tolist()
 #url = ["https://play.google.com/store/apps/details?id=com.lemongame.klondike.solitaire","https://play.google.com/store/apps/details?id=com.dimcher.entertainment.revolver","https://play.google.com/store/apps/details?id=com.orangenose.tablefull"]
@@ -209,7 +209,7 @@ while index < totalNumberOfURLs-1:
                                     'Rating_1': title1,
                                     'Content_Rating': Content_Rating,
                                     'Type': Type})
-            test_df.to_csv('appDetailsOutput.csv', header=False, mode = 'a') #run this to append the data into csv
+            test_df.to_csv('SampleAppDetailsOutput.csv', header=False, mode = 'a') #run this to append the data into csv
         print (test_df)
     timeTaken = time.time() - startTime
     remainingTime = (timeTaken * (totalNumberOfURLs - index))/60
