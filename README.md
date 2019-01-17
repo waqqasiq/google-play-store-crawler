@@ -4,6 +4,7 @@ Play store scraper to extract meta data and user-reviews of apps that can be use
 
 ### Dependency required:
 - Beautiful Soup 4
+- Pandas
 
 ### Note:
 Limitation: At most 40 latest user-reviews of each app can be extracted
