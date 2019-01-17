@@ -2,6 +2,6 @@
 
 Meta data and user-reviews of Google Play Store Apps
 
-## Dependency required:
--Beautiful Soup 4
+### Dependency required:
+- Beautiful Soup 4
 
